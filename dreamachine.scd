@@ -1,6 +1,10 @@
-
-// binaural beats for brain manipulation, to be expanded to be run from the command line using thisProcess.argv
+// binaural beats, TODO expand to be run from the command line using thisProcess.argv
 // Authored by Sam Conran cc -> www.samconran.com
+
+// INSTRUCTIONS
+// SET DESIRED BEAT ON LINE 15 BY REPLACING THETA WITH EITHER DELTA,ALPHA,BETA OR GAMMA, SEE COMMENTS ON LINES 14,15,16,17,18.
+// SET DESIRED ROOT FREQUENCY, 50 OR LOWER I FIND PERSONALLY QUITE GOOD FOR DELTA, THETA, ALPHA, I USE HIGHER ROOTS FOR BETA AND GAMMA
+// HIGHLIGHT THE WHOLE BUFFER (WIN CTRL+A, MAC CMD+A) THEN SHIFT+ENTER.
 
 s.waitForBoot{
 	var left = 0, right = 0, beat = 0, delta = 0, theta = 0, alpha = 0, beta = 0, gamma = 0, root = 0;
